@@ -43,7 +43,7 @@ export default {
                     MiniCssExtractPlugin.loader,
                     {loader: "css-loader", options: {importLoaders: 2, sourceMap: true}},
                     {loader: "postcss-loader", options: {sourceMap: true}},
-                    {loader: "sass-loader", options: {sourceMap: true}}
+                    {loader: "sass-loader", options: {sourceMap: true, implementation: require("sass")}}
                 ]
             },
             {
