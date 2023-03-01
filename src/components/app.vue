@@ -136,6 +136,8 @@
             md-persistent>
             <span>{{current_feedback}}</span>
         </md-snackbar>
+
+        <div id="eol"><a href="https://github.com/korylprince/APPS">APPS will cease to work on March 31st, 2023.</a></div>
     </div>
 </template>
 
@@ -264,4 +266,17 @@ export default {
 
 .md-tooltip
     height: inherit
+
+#eol
+    position: absolute
+    width: 100%
+    bottom: 20px
+    text-align: center
+    font-size: 1.6em
+    z-index: 999
+    @media (max-width: 600px)
+        font-size: 1em
+    a
+        color: red !important
+        text-decoration: underline
 </style>
