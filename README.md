@@ -1,3 +1,11 @@
+# NOTICE
+
+**APPS will cease to work on March 31st, 2023.**
+
+Google has ended support for some of the libraries APPS uses, and I don't have the amount of time it would take to migrate to newer libraries.
+
+I hope APPS has been useful over the last 5 years.
+
 # About
 
 APPS is a simple gradebook to track points for students. Start using it [here](https://korylprince.github.io/APPS)!
