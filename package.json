@@ -1,6 +1,6 @@
 {
     "name": "APPS",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "APPS",
     "main": "dist/app.js",
     "scripts": {
